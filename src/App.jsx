@@ -1,9 +1,9 @@
-import React, { PureComponent } from 'react';
-import logo from './logo.svg';
-import styles from './App.module.css';
+import React, { PureComponent } from 'react'
+import logo from './logo.svg'
+import styles from './App.module.css'
 
 class App extends PureComponent {
-  componentDidMount = () => {};
+  componentDidMount = () => {}
 
   render() {
     return (
@@ -11,11 +11,7 @@ class App extends PureComponent {
         <header className={styles.AppHeader}>
           <img src={logo} className={styles.AppLogo} alt="logo" />
           <p>
-            Edit
-            {' '}
-            <code>src/App.js</code>
-            {' '}
-and save to reload.
+            Edit <code>src/App.js</code> and save to reload.
           </p>
           <a
             className={styles.AppLink}
@@ -23,14 +19,12 @@ and save to reload.
             target="_blank"
             rel="noopener noreferrer"
           >
-            I love React
-            {' '}
-            {process.env.REACT_APP_SECRET_CODE}
+            I love React {process.env.REACT_APP_SECRET_CODE}
           </a>
         </header>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
