@@ -1,15 +1,21 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import logo from './logo.svg';
 import styles from './App.module.css';
 
-class App extends Component {
+class App extends PureComponent {
+  componentDidMount = () => {};
+
   render() {
     return (
       <div className={styles.App}>
         <header className={styles.AppHeader}>
           <img src={logo} className={styles.AppLogo} alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit
+            {' '}
+            <code>src/App.js</code>
+            {' '}
+and save to reload.
           </p>
           <a
             className={styles.AppLink}
@@ -17,7 +23,9 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React {process.env.REACT_APP_SECRET_CODE}
+            I love React
+            {' '}
+            {process.env.REACT_APP_SECRET_CODE}
           </a>
         </header>
       </div>
