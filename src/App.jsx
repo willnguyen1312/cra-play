@@ -15,7 +15,7 @@ const App = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        I love React {process.env.REACT_APP_SECRET_CODE}
+        I luv React {process.env.REACT_APP_SECRET_CODE}
       </a>
     </header>
   </div>
