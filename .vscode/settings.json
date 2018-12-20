@@ -1,7 +1,6 @@
 {
-    "eslint.enable": true,
-    "prettier.eslintIntegration": true,
-    "files.associations": {
-        "*.js": "javascriptreact"
-    }
+    "tslint.enable": true,
+    "prettier.tslintIntegration": true,
+    "tslint.autoFixOnSave": true,
+    "editor.formatOnSave": true
 }

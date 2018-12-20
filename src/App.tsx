@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from './logo.svg'
 import styles from './App.module.css'
+import logo from './logo.svg'
 
 const App = () => (
   <div className={styles.App}>
