@@ -11,8 +11,8 @@ jobs:
           name: Setup Dependencies
           command: npm install
       - run:
-          name: eslint
-          command: yarn eslint
+          name: Linting
+          command: yarn lint
       - run:
-          name: Run test with coverage
-          command: CI=true yarn test:coverage
+          name: Testing
+          command: CI=true yarn test:ci
