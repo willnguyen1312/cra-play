@@ -56,7 +56,7 @@ export function register(config: any) {
 }
 
 function registerValidSW(
-  swUrl: string,
+  swUrl: any,
   config: {
     onUpdate: (arg0: ServiceWorkerRegistration) => void
     onSuccess: (arg0: ServiceWorkerRegistration) => void
